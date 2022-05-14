@@ -118,7 +118,7 @@
                       echo "<span class='op-6'> by </span>";
                       echo "<a class='text-black' href='user_profile.php?ViewingUserID=$question_user_id'>$question_user</a>";
                     echo "</p>";
-                    if ($qobj["resolved"] == 1) {
+                    if ($aobj["resolved"] == 1) {
                       echo "<p class='text-success mr-2'>Resolved</p>";
                     } else {
                       echo "<p class='text-danger mr-2'>Unresolved</p>";
